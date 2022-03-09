@@ -6,7 +6,7 @@
 def ventas(A):
     C = 0
     while A > 0 :
-        B = int(input("Venta:"))
+        B = int(input("Valor producto:"))
         C = C + B
         print(C)
         A -= 1
